@@ -1,18 +1,31 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class='d-flex flex-column wrapper'>
+    <SectionPersonal/>
+    <SectionSecurity/>
+    <SectionContacts/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import SectionPersonal from '@/components/SectionPersonal.vue'
+import SectionSecurity from '@/components/SectionSecurity.vue'
+import SectionContacts from '@/components/SectionContacts.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    SectionPersonal,
+    SectionSecurity,
+    SectionContacts
+  },
+  mounted() {
   }
 }
+
+
 </script>
+
+<style>
+
+</style>

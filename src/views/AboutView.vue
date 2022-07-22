@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class='d-flex flex-column wrapper'>
+    <h1 class=''>О компании</h1>
   </div>
 </template>
