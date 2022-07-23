@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkshop"]=self["webpackChunkshop"]||[]).push([[443],{4063:function(n,e,r){r.r(e),r.d(e,{default:function(){return p}});var s=r(3396);const c={class:"d-flex flex-column wrapper"},u=(0,s._)("h1",{class:""},"О компании",-1),t=[u];function a(n,e){return(0,s.wg)(),(0,s.iD)("div",c,t)}var f=r(89);const l={},o=(0,f.Z)(l,[["render",a]]);var p=o}}]);
+//# sourceMappingURL=about.416a387a.js.map
